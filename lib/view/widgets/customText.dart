@@ -6,11 +6,11 @@ class CustomText extends StatelessWidget {
   final double fontSize;
   final Alignment alignment;
   const CustomText(
-      {Key? key,
-      required this.text,
-      required this.color,
+      {Key key,
+       this.text,
+       this.color,
       this.alignment = Alignment.topLeft,
-      required this.fontSize})
+       this.fontSize})
       : super(key: key);
 
   @override
